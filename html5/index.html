@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>as imagens vao se adpatar as telas dos dispositivos com a tag picture que permite modificar as tag img usando source media type</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="./imagens-gimp/imagen-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="./imagens-gimp/imagen-m.png" type="image/png">
+        <img src="imagens-gimp/imagen-g.png" alt="imagens">
+    </picture>
+
+    <h1>audio</h1>
+    <audio controls>
+        <source src="./midia/Dive Down - VYEN.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1> vieos</h1>
+    <video width="500" controls>
+        <source src="./videos/pexels-bil-hinton-17291514 (Original).mp4" type="video/mp4">
+    </video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=4sWtipy1_HhsigAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

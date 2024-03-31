@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+body{
+   background-image: linear-gradient(to right,  rgb(240, 148, 0), rgb(190, 0, 0) );
+    text-align: center;
+}
+
+h1{
+    background-color: rgba(255, 90, 13, 0.79);
+    color: rgb(240, 248, 255);
+    font-size: 30px;
+    border-radius: 15px;
+    
+    
+}
+
+.texto-branco{
+    background-color: rgba(240, 248, 255, 0.589);
+    color: black;
+   font-size: 25px;
+   border-radius: 15px;
+   padding: 25px;
+   text-align: justify;
+}
+
+.cabecalho{
+    font-size: 50px;
+   text-align: left;
+    padding: 35px;
+    border: 35px;
+    font-family: 'Permanent Marker';
+    font-style: italic;
+}
+
+ul{
+    background-color: rgba(255, 90, 13, 0.79);
+    color: aliceblue;
+    transition: 03ms;
+    border-radius: 15px;
+}
+
+li:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: 03ms;
+}
+
+li{
+  padding: 05px;
+  transition: 03ms;
+  font-size: 25px;
+}
+
+img{
+    width: 500px;
+    border-radius: 15px;
+}
+
+footer{
+    font-size: 25px;
+    padding-bottom: 60px;
+}
+
+.zap{
+    padding: 10px;
+    color: black;
+    border-color: white;
+    background-color: aliceblue;
+}
+
+.insta{
+    padding: 10px;
+    color: black;
+    border-color: white;
+    background-color: aliceblue;
+}
+
+.face{
+    padding: 10px;
+    color: black;
+    border-color: white;
+    background-color: aliceblue;
+}
+
+.contato{
+    margin: 25px;
+   
+}
+
+
