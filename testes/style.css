@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    padding: 15px;
+    padding-bottom: 20px;
     background-image: linear-gradient(to right, #0f3fa6, #1B7BD1);
 }
 
@@ -48,8 +48,19 @@ header a:hover{
     justify-content: right;
 }
 
-main > h1{
+main{
     text-align: center;
+    background-color: #0f3fa6;
+}
+
+main h1, h2{
+    padding: 15px;
+    background-color: #0C3791;
+    color: #16A16A;
+}
+
+main h2{
+    margin-bottom: 10px;
 }
 
 div.main{
@@ -88,5 +99,19 @@ div.miolo{
     width: 60px;
     height: 60px;
 }
+
+table{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
 
 
