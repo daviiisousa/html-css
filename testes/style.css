@@ -3,17 +3,26 @@
     padding: 0px;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
     padding: 15px;
-    background-image: linear-gradient(to right, #0C3791, #1B7BD1);
+    background-image: linear-gradient(to right, #0f3fa6, #1B7BD1);
 }
 
 header h1{
     color: #1DD3FF;
-    padding: 20px;
     text-align: center;
     font-size: 50px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.57);
+}
+
+div.bem-vindo{
+    background-color: #0C3791;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 header a{
@@ -24,28 +33,60 @@ header a{
     border-radius: 15px;
 }
 
-a:hover{
+header img{
+    border-radius: 50%;
+}
+
+header a:hover{
     text-decoration: underline;
     color:#16A16A ;
     background-color:#1DD3B9 ;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.cabecalho{
-    border-radius: 50%;
+.logo{
     display:flex ;
-    justify-content: left;
+    justify-content: right;
+}
+
+main > h1{
+    text-align: center;
+}
+
+div.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #16A16A;
 }
 
 
-table{
-   border-collapse: collapse; 
+div.conteiner{
+    background-color: #1B7BD1;
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-th, td{
-    border: 1px solid black;
+div.items{
+    width: 250px;
+    height: 250px;
+    border: 2px solid lawngreen;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+div.miolo{
+    border: 1px solid white;
+    width: 60px;
+    height: 60px;
+}
+
+
