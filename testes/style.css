@@ -36,7 +36,8 @@ body{
 
 .cabecalho{
     border-radius: 50%;
-    margin-left: 1200px;
+    display:flex ;
+    justify-content: left;
 }
 
 
