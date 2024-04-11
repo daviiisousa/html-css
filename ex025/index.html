@@ -10,10 +10,25 @@
     <form action=cadastro.php; action="post">
         <p>
             <label for="nome">nome</label>
-            <input required minlength="10" placeholder="nome do usuario" type="text" name="nome" id="nome"> <br>
+            <input required maxlength="10" placeholder="nome do usuario" type="text" name="nome" id="nome"> <br>
 
             <label for="senha">senha</label>
             <input required minlength="8" placeholder="senha" type="password" name="senha" id="senha">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+    <h1>aluno</h1>
+    <form action="get">
+        <p>
+            <label for="aluno">nome</label>
+            <input type="text" name="aluno" id="aluno" placeholder="aluno" maxlength="20" required>
+        </p>
+        <p>
+            <label for="nota">nota</label>
+            <input type="number" name="nota" id="nota" min="0" max="10" placeholder="0 a 10" required>
         </p>
         <p>
             <input type="submit" value="enviar">
