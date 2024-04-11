@@ -54,6 +54,19 @@
             <input type="radio" name="sexo" id="fem">
             <label for="fem">feminino</label>
         </fieldset>
+    </form> <br>
+    <form action="post">
+        <label for="n1">numero</label>
+        <input type="number" name="n1" id="n1" oninput="soma.innerHTML = Number(n1.value) + Number(n2.value)">
+        
+        <p>
+            <label for="n2">numero</label>
+            <input type="number" name="n2" id="n2"  oninput="soma.innerHTML = Number(n1.value) + Number(n2.value)">
+        </p>
+        <p>
+            <label for="soma">soma</label>
+            <output name="soma" id="soma" >0</output>
+        </p>
     </form>
 </body>
 </html>
