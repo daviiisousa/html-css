@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* ESTILO TELA */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: lightslategray;
+}
+
+header > h1{
+    text-align: center;
+}
+
+ul{
+    background-color: darkgrey;
+} 
+
+li{
+    display: inline-block;
+    padding: 10px;
+    background-color: #706f6f;
+    color: white;
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
