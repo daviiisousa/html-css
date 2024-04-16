@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: #074173;
+    padding: 10px;
+    text-align: center;
+}
+header h1{
+    color: #5DEBD7;
+    font-family: "Bebas Neue", sans-serif;;
+    font-size: 5em;
+}
+header h2{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #5DEBD7;
+    font-size: 2.5em;
+}
+header p{
+    color: #C5FF95;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+header  img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 10PX;
+}
+header a{
+    color: #C5FF95;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #1679AB;
+    border-radius: 20px;
+}
+header a:hover{
+    background-color: #C5FF95;
+    color: #1679AB;
+}
+
+nav#redes{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
