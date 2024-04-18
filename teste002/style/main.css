@@ -51,6 +51,7 @@ section#projetos > a{
     padding: 10px;
     background-color: #074173;
     border-radius: 20px;
+    transition: background-color .3s ease;
 }
 section#projetos > a:hover{
     background-color: #C5FF95;
