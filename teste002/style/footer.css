@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+footer{
+    background-image: linear-gradient(to right, #062f52, #1a8cc5);
+    width: 100vw;
+    height: 10vw;
+    text-align: center;
+}
+footer > h1{
+    color:#5DEBD7 ;
+    font-family: "Bebas Neue", sans-serif;;
+    font-size: 5em;
+    padding: 30px;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+main{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #167aac ;
+}
+section#experiencia{
+    padding: 10px;
+    text-align: center;
+    
+}
+section#experiencia > h1{
+    color:#5DEBD7 ;
+    font-family: "Bebas Neue", sans-serif;;
+    font-size: 5em;
+    background-color: #074173;
+    border-radius: 20px;
+    padding: 5px;
+}
+section#experiencia > p{
+    color: #C5FF95;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+section#projetos{
+    padding: 10px;
+    text-align: center;
+}
+section#projetos > h1{
+    color:#5DEBD7 ;
+    font-family: "Bebas Neue", sans-serif;;
+    font-size: 5em;
+    background-color: #074173;
+    border-radius: 20px;
+    padding: 5px;
+}
+section#projetos > p{
+    color: #C5FF95;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+section#projetos > a{
+    color: #C5FF95;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #074173;
+    border-radius: 20px;
+}
+section#projetos > a:hover{
+    background-color: #C5FF95;
+    color: #1679AB;
+    text-decoration: underline;
+}
