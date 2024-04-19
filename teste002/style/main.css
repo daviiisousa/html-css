@@ -17,8 +17,8 @@ section#experiencia{
 section#experiencia > h1{
     color:#5DEBD7 ;
     font-family: "Bebas Neue", sans-serif;;
-    font-size: 5em;
-    background-color: #074173;
+    font-size: 4em;
+   
     border-radius: 20px;
     padding: 5px;
 }
@@ -35,8 +35,8 @@ section#projetos{
 section#projetos > h1{
     color:#5DEBD7 ;
     font-family: "Bebas Neue", sans-serif;;
-    font-size: 5em;
-    background-color: #074173;
+    font-size: 4em;
+    
     border-radius: 20px;
     padding: 5px;
 }
