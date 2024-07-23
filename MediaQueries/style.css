@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*O @media e uma condiçao dentro dos parenteses faz com que meu site seja de uma jeito dependendo da condiçao passada */
+
+/* max width e quando a condiçao so vai ser executada se sua largura for no maximo um tamanho escolhido */
+@media (max-width: 600px){
+    body{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    h1{
+        color: red;
+    }
+    h2{
+        color: red;
+    }
+}
+/* min width e quando a condiçao so vai ser executada se sua largura for no minimo um tamanho escolhido */
+@media (min-width: 1000px){
+    body{
+        background-color: brown;
+    }
+}
+
+@media (orientation: landscape){
+    body{
+        background-color: blue;
+    }
+}
