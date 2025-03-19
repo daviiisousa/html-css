@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.grid{
+    background-color: #ffffff;
+    padding: 10px;
+    color: black;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: minmax(100px, 1fr) 1fr 1fr;
+    grid-template-rows: 50px 100px 30px;
+    /* grid-template-areas: 
+        "header header header"
+        "nav conteudo anuncio"
+        "nav footer footer"
+    ; */
+}
+
+.item{
+    background-color: tomato;
+    text-align: center;
+}
+
+.header{
+    grid-column:  1 / -1;
+}
+
+.nav{
+    grid-row:  span 3;
+}
+
+/* .conteudo{
+   
+} */
+
+/* .anuncio{
+    grid-row: span 3;
+} */
+
+.footer{
+    grid-column: span 2;
+}
