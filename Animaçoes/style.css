@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f7f7f7;
 }
 
 .container{
@@ -49,6 +54,12 @@
     }
 }
 
+@keyframes load{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
 .nav{
     gap: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.219);
@@ -59,6 +70,7 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
+        cursor: pointer;
     }
 
     ul > li::after{
@@ -67,7 +79,7 @@
         width: 0%;
         height: 2px;
         background-color: red;
-        transition: width 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
     }
 
     ul > li:hover::after{
@@ -93,21 +105,44 @@
 
 .clicked {
     background-color: white;
-    border: 1px solid rgb(166, 78, 248);
-    color: rgb(166, 78, 248);
+    border: 1px solid #a64ef8;
+    color: #a64ef8;
     transform: translateY(-3px );
     box-shadow: none;
     top: 2px;
 }
 
-.bola{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(166, 78, 248);
+.load{
+    border: 10px solid #a64ef8;
+    border-top-color: transparent;
+    display: block;
+    margin: 5px auto;
     border-radius: 50%;
-    transition: all ease-in-out;
+    width: 50px;
+    height: 50px;
+    animation: load .6s linear infinite;
 }
 
-.bola:hover{
-    animation: jumping 0.9s  infinite;
+form{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    animation: animateLeft 0.6s ;
+
+    label{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+
+    input{
+        border-radius: 5px;
+        padding: 12px 24px;
+        background-color: #dadada;
+        border: none;
+    }
 }
