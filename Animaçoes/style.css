@@ -9,6 +9,10 @@
     animation: animeLeft 0.5s ease-out;
 }
 
+h1{
+    animation: animeLeft 0.5s ;
+}
+
 form{
     display: flex;
     align-items: center;
